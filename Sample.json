@@ -6,11 +6,11 @@ public class Sample {
         this.driver = driver;
     }
 
-        private By temp = By.name("name&#x3D;btnI");  
+        private By tab = By.name("name&#x3D;btnK");  
       
 
-        public RemoteWebElement gettemp(){
-            return driver.findElement(temp);
+        public RemoteWebElement gettab(){
+            return driver.findElement(tab);
         }      
 }
 
