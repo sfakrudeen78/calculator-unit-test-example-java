@@ -1,0 +1,16 @@
+public class Sample1 {
+
+    private RemoteWebDriver driver;
+
+    public Sample1(RemoteWebDriver driver){
+        this.driver = driver;
+    }
+
+        private By india = By.name("name&#x3D;btnK");  
+      
+
+        public RemoteWebElement getindia(){
+            return driver.findElement(india);
+        }      
+}
+
