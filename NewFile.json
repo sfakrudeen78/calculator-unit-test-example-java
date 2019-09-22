@@ -1,0 +1,16 @@
+public class NewFile {
+
+    private RemoteWebDriver driver;
+
+    public NewFile(RemoteWebDriver driver){
+        this.driver = driver;
+    }
+
+        private By temp = By.name("name&#x3D;q");  
+      
+
+        public RemoteWebElement gettemp(){
+            return driver.findElement(temp);
+        }      
+}
+
