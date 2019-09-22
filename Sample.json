@@ -6,11 +6,21 @@ public class Sample {
         this.driver = driver;
     }
 
-        private By tab = By.name("name&#x3D;btnK");  
+        private By tablet = By.name("name=btnK");  
+      
+        private By magnet = By.name("name=btnI");  
+      
+        private By kingkong = By.name("name=q");  
       
 
-        public RemoteWebElement gettab(){
-            return driver.findElement(tab);
+        public RemoteWebElement gettablet(){
+            return driver.findElement(tablet);
+        }      
+        public RemoteWebElement getmagnet(){
+            return driver.findElement(magnet);
+        }      
+        public RemoteWebElement getkingkong(){
+            return driver.findElement(kingkong);
         }      
 }
 
