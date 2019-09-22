@@ -12,6 +12,8 @@ public class  {
       
         private By kingkong = By.name("name=q");  
       
+        private By tablet = By.css("css=a.gb_C.gb_wc");  
+      
 
         public RemoteWebElement gettablet(){
             return driver.findElement(tablet);
@@ -21,6 +23,9 @@ public class  {
         }      
         public RemoteWebElement getkingkong(){
             return driver.findElement(kingkong);
+        }      
+        public RemoteWebElement gettablet(){
+            return driver.findElement(tablet);
         }      
 }
 
