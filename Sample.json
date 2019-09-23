@@ -6,21 +6,37 @@ public class Sample {
         this.driver = driver;
     }
 
-        private By tablet = By.name("name=btnK");  
+
+    /*PO
+    {
+        "title":"Sample",
+        "elements":[
+        {
+            "name": "tab",
+            "loc_type": "css",
+            "loc_value": "css=div.FPdoLc.VlcLAe > center""
+        },
+        {
+            "name": "mob",
+            "loc_type": "name",
+            "loc_value": "name=q""
+        },
+
+        ]
+    }
+
+    PO*/
+
+    private By tab = By.css("css=div.FPdoLc.VlcLAe > center");  
       
-        private By magnet = By.name("name=btnI");  
-      
-        private By kingkong = By.name("name=q");  
+    private By mob = By.name("name=q");  
       
 
-        public RemoteWebElement gettablet(){
-            return driver.findElement(tablet);
-        }      
-        public RemoteWebElement getmagnet(){
-            return driver.findElement(magnet);
-        }      
-        public RemoteWebElement getkingkong(){
-            return driver.findElement(kingkong);
-        }      
+    public RemoteWebElement gettab(){
+        return driver.findElement(tab);
+    }      
+    public RemoteWebElement getmob(){
+        return driver.findElement(mob);
+    }      
 }
 
