@@ -11,32 +11,12 @@ public class Sample {
     {
         "title":"Sample",
         "elements":[
-        {
-            "name": "tab",
-            "loc_type": "css",
-            "loc_value": "css=div.FPdoLc.VlcLAe > center""
-        },
-        {
-            "name": "mob",
-            "loc_type": "name",
-            "loc_value": "name=q""
-        },
 
         ]
     }
 
     PO*/
 
-    private By tab = By.css("css=div.FPdoLc.VlcLAe > center");  
-      
-    private By mob = By.name("name=q");  
-      
 
-    public RemoteWebElement gettab(){
-        return driver.findElement(tab);
-    }      
-    public RemoteWebElement getmob(){
-        return driver.findElement(mob);
-    }      
 }
 
