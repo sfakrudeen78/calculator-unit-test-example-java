@@ -11,12 +11,32 @@ public class Sample {
     {
         "title":"Sample",
         "elements":[
+        {
+            "name": "tem",
+            "loc_type": "name",
+            "loc_value": "name=btnK"
+        },
+        {
+            "name": "bal",
+            "loc_type": "name",
+            "loc_value": "name=q"
+        },
 
         ]
     }
 
     PO*/
 
+    private By tem = By.name("name=btnK");  
+      
+    private By bal = By.name("name=q");  
+      
 
+    public RemoteWebElement gettem(){
+        return driver.findElement(tem);
+    }      
+    public RemoteWebElement getbal(){
+        return driver.findElement(bal);
+    }      
 }
 
