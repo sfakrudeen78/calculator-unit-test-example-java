@@ -20,7 +20,7 @@ public class Sample {
             "name": "bal",
             "loc_type": "name",
             "loc_value": "name=q"
-        },
+        }
 
         ]
     }
