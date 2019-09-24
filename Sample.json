@@ -11,9 +11,9 @@ public class Sample {
     {
         "title":"Sample",
         "elements":[
-        {&quot;class&quot;:&quot;Button&quot;,&quot;frameName&quot;:&quot;&quot;,&quot;locator&quot;:{&quot;tag_name&quot;:&quot;INPUT&quot;,&quot;type&quot;:&quot;name&quot;,&quot;value&quot;:&quot;name&#x3D;btnK&quot;},&quot;name&quot;:&quot;tab&quot;,&quot;strict_locator&quot;:&quot;name&#x3D;btnK&quot;}
+        [object Object]
         
-,        {&quot;class&quot;:&quot;Button&quot;,&quot;frameName&quot;:&quot;&quot;,&quot;locator&quot;:{&quot;tag_name&quot;:&quot;INPUT&quot;,&quot;type&quot;:&quot;name&quot;,&quot;value&quot;:&quot;name&#x3D;btnI&quot;},&quot;name&quot;:&quot;mab&quot;,&quot;strict_locator&quot;:&quot;name&#x3D;btnI&quot;}
+,        [object Object]
         
 
         ]
@@ -21,16 +21,16 @@ public class Sample {
 
     PO*/
 
-    private By tab = By.name("name=btnK");  
+    private By tab = By.name("name=btnI");  
       
-,    private By mab = By.name("name=btnI");  
+,    private By mob = By.name("name=btnK");  
       
 
     public RemoteWebElement gettab(){
         return driver.findElement(tab);
     }      
-,    public RemoteWebElement getmab(){
-        return driver.findElement(mab);
+,    public RemoteWebElement getmob(){
+        return driver.findElement(mob);
     }      
 }
 
