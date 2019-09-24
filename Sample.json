@@ -13,6 +13,8 @@ public class Sample {
         "elements":[
         {"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"tab","strict_locator":"name=btnI"}
         
+,        {"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"bala","strict_locator":"name=btnK"}
+        
 
         ]
     }
@@ -21,9 +23,14 @@ public class Sample {
 
     private By tab = By.name("name=btnI");  
       
+,    private By bala = By.name("name=btnK");  
+      
 
     public RemoteWebElement gettab(){
         return driver.findElement(tab);
+    }      
+,    public RemoteWebElement getbala(){
+        return driver.findElement(bala);
     }      
 }
 
