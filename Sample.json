@@ -10,10 +10,10 @@ public class Sample {
     /*PO
     {
         "title":"Sample",
-        "elements":[
-        {"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"tab","strict_locator":"name=btnI"}
+        "info":[
+        "value"=[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tab","strict_locator":"name=btnK"}]
         
-,        {"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"bala","strict_locator":"name=btnK"}
+,        "value"=[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"mob","strict_locator":"name=btnI"}]
         
 
         ]
@@ -21,16 +21,16 @@ public class Sample {
 
     PO*/
 
-    private By tab = By.name("name=btnI");  
+    private By tab = By.name("name=btnK");  
       
-,    private By bala = By.name("name=btnK");  
+,    private By mob = By.name("name=btnI");  
       
 
     public RemoteWebElement gettab(){
         return driver.findElement(tab);
     }      
-,    public RemoteWebElement getbala(){
-        return driver.findElement(bala);
+,    public RemoteWebElement getmob(){
+        return driver.findElement(mob);
     }      
 }
 
