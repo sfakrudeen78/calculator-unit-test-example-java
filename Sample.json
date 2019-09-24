@@ -11,9 +11,7 @@ public class Sample {
     {
         "title":"Sample",
         "elements":[
-        [object Object]
-        
-,        [object Object]
+        {"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"tab","strict_locator":"name=btnI"}
         
 
         ]
@@ -23,14 +21,9 @@ public class Sample {
 
     private By tab = By.name("name=btnI");  
       
-,    private By mob = By.name("name=btnK");  
-      
 
     public RemoteWebElement gettab(){
         return driver.findElement(tab);
-    }      
-,    public RemoteWebElement getmob(){
-        return driver.findElement(mob);
     }      
 }
 
