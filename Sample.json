@@ -11,9 +11,9 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        "value"=[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tab","strict_locator":"name=btnK"}]
+        "value":[]
         
-,        "value"=[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"mob","strict_locator":"name=btnI"}]
+,        "value":[]
         
 
         ]
@@ -21,16 +21,16 @@ public class Sample {
 
     PO*/
 
-    private By tab = By.name("name=btnK");  
+    private By ba = By.name("name=btnI");  
       
-,    private By mob = By.name("name=btnI");  
+,    private By ca = By.name("name=btnK");  
       
 
-    public RemoteWebElement gettab(){
-        return driver.findElement(tab);
+    public RemoteWebElement getba(){
+        return driver.findElement(ba);
     }      
-,    public RemoteWebElement getmob(){
-        return driver.findElement(mob);
+,    public RemoteWebElement getca(){
+        return driver.findElement(ca);
     }      
 }
 
