@@ -11,9 +11,7 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"abc","strict_locator":"name=btnK"}]}
-        
-,        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"lat","strict_locator":"name=btnI"}]}
+        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"table","strict_locator":"name=btnK"}]}
         
 
         ]
@@ -21,16 +19,11 @@ public class Sample {
 
     PO*/
 
-    private By abc = By.name("name=btnK");  
-      
-,    private By lat = By.name("name=btnI");  
+    private By table = By.name("name=btnK");  
       
 
-    public RemoteWebElement getabc(){
-        return driver.findElement(abc);
-    }      
-,    public RemoteWebElement getlat(){
-        return driver.findElement(lat);
+    public RemoteWebElement gettable(){
+        return driver.findElement(table);
     }      
 }
 
