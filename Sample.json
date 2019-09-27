@@ -11,19 +11,12 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"value":[{"class":"A","frameName":"","locator":{"tag_name":"A","type":"css","value":"css=html > #gsr > #viewport > #main > #body > center > #prm-pt > #gws-output-pages-elements-homepage_additional_languages__als > #SIvCob > a:nth-of-type(1)"},"name":"tab","strict_locator":"css=html > #gsr > #viewport > #main > #body > center > #prm-pt > #gws-output-pages-elements-homepage_additional_languages__als > #SIvCob > a:nth-of-type(1)"}]}
-        
 
         ]
     }
 
     PO*/
 
-    private By tab = By.css("css=html > #gsr > #viewport > #main > #body > center > #prm-pt > #gws-output-pages-elements-homepage_additional_languages__als > #SIvCob > a:nth-of-type(1)");  
-      
 
-    public RemoteWebElement gettab(){
-        return driver.findElement(tab);
-    }      
 }
 
