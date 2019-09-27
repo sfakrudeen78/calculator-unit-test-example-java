@@ -1,0 +1,22 @@
+public class Sample25 {
+
+    private RemoteWebDriver driver;
+
+    public Sample25(RemoteWebDriver driver){
+        this.driver = driver;
+    }
+
+
+    /*PO
+    {
+        "title":"Sample25",
+        "info":[
+
+        ]
+    }
+
+    PO*/
+
+
+}
+
