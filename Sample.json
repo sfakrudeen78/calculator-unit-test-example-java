@@ -11,12 +11,19 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
+        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"btee","strict_locator":"name=btnK"}]}
+        
 
         ]
     }
 
     PO*/
 
+    private By btee = By.name("name=btnK");  
+      
 
+    public RemoteWebElement getbtee(){
+        return driver.findElement(btee);
+    }      
 }
 
