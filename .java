@@ -11,9 +11,9 @@ public class  {
     {
         "title":"",
         "info":[
-        {"key":tab,"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tab","strict_locator":"name=btnK"}]}
+        {"key":"tab","value":[{"class":"TextField","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=q"},"name":"tab","strict_locator":"name=q"}]}
         
-,        {"key":mab,"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"mab","strict_locator":"name=btnI"}]}
+,        {"key":"aldd","value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"aldd","strict_locator":"name=btnI"}]}
         
 
         ]
@@ -21,16 +21,16 @@ public class  {
 
     PO*/
 
-    private By tab = By.name("name=btnK");  
+    private By tab = By.name("name=q");  
       
-,    private By mab = By.name("name=btnI");  
+,    private By aldd = By.name("name=btnI");  
       
 
     public RemoteWebElement gettab(){
         return driver.findElement(tab);
     }      
-,    public RemoteWebElement getmab(){
-        return driver.findElement(mab);
+,    public RemoteWebElement getaldd(){
+        return driver.findElement(aldd);
     }      
 }
 
