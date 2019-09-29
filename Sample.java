@@ -11,9 +11,7 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"key":tab,"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tab","strict_locator":"name=btnK"}]}
-        
-,        {"key":mab,"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"mab","strict_locator":"name=btnI"}]}
+        {"key":"tablet","value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tablet","strict_locator":"name=btnK"}]}
         
 
         ]
@@ -21,16 +19,11 @@ public class Sample {
 
     PO*/
 
-    private By tab = By.name("name=btnK");  
-      
-,    private By mab = By.name("name=btnI");  
+    private By tablet = By.name("name=btnK");  
       
 
-    public RemoteWebElement gettab(){
-        return driver.findElement(tab);
-    }      
-,    public RemoteWebElement getmab(){
-        return driver.findElement(mab);
+    public RemoteWebElement gettablet(){
+        return driver.findElement(tablet);
     }      
 }
 
