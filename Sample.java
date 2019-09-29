@@ -11,9 +11,9 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"temple","strict_locator":"name=btnK"}]}
+        {"key":tab,"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tab","strict_locator":"name=btnK"}]}
         
-,        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"bum","strict_locator":"name=btnI"}]}
+,        {"key":mab,"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"mab","strict_locator":"name=btnI"}]}
         
 
         ]
@@ -21,16 +21,16 @@ public class Sample {
 
     PO*/
 
-    private By temple = By.name("name=btnK");  
+    private By tab = By.name("name=btnK");  
       
-,    private By bum = By.name("name=btnI");  
+,    private By mab = By.name("name=btnI");  
       
 
-    public RemoteWebElement gettemple(){
-        return driver.findElement(temple);
+    public RemoteWebElement gettab(){
+        return driver.findElement(tab);
     }      
-,    public RemoteWebElement getbum(){
-        return driver.findElement(bum);
+,    public RemoteWebElement getmab(){
+        return driver.findElement(mab);
     }      
 }
 
