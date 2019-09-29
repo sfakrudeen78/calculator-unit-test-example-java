@@ -11,7 +11,7 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tablet","strict_locator":"name=btnK"}]}
+        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tamber","strict_locator":"name=btnK"}]}
         
 
         ]
@@ -19,11 +19,11 @@ public class Sample {
 
     PO*/
 
-    private By tablet = By.name("name=btnK");  
+    private By tamber = By.name("name=btnK");  
       
 
-    public RemoteWebElement gettablet(){
-        return driver.findElement(tablet);
+    public RemoteWebElement gettamber(){
+        return driver.findElement(tamber);
     }      
 }
 
