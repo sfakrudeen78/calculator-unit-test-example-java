@@ -11,7 +11,9 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"tamber","strict_locator":"name=btnK"}]}
+        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"temple","strict_locator":"name=btnK"}]}
+        
+,        {"value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnI"},"name":"bum","strict_locator":"name=btnI"}]}
         
 
         ]
@@ -19,11 +21,16 @@ public class Sample {
 
     PO*/
 
-    private By tamber = By.name("name=btnK");  
+    private By temple = By.name("name=btnK");  
+      
+,    private By bum = By.name("name=btnI");  
       
 
-    public RemoteWebElement gettamber(){
-        return driver.findElement(tamber);
+    public RemoteWebElement gettemple(){
+        return driver.findElement(temple);
+    }      
+,    public RemoteWebElement getbum(){
+        return driver.findElement(bum);
     }      
 }
 
