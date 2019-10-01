@@ -11,9 +11,11 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"key":"junga","value":[{"class":"Button","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=btnK"},"name":"junga","strict_locator":"name=btnK"}]}
+        {"key":"tab","value":[]}
         
-,        {"key":"monkye","value":[{"class":"TextField","frameName":"","locator":{"tag_name":"INPUT","type":"name","value":"name=q"},"name":"monkye","strict_locator":"name=q"}]}
+,        {"key":"aldd","value":[]}
+        
+,        {"key":"dingo","value":[]}
         
 
         ]
@@ -21,16 +23,21 @@ public class Sample {
 
     PO*/
 
-    private By junga = By.name("name=btnK");  
+    private By tab = By.name("name=q");  
       
-,    private By monkye = By.name("name=q");  
+,    private By aldd = By.name("name=btnI");  
+      
+,    private By dingo = By.name("name=btnK");  
       
 
-    public RemoteWebElement getjunga(){
-        return driver.findElement(junga);
+    public RemoteWebElement gettab(){
+        return driver.findElement(tab);
     }      
-,    public RemoteWebElement getmonkye(){
-        return driver.findElement(monkye);
+,    public RemoteWebElement getaldd(){
+        return driver.findElement(aldd);
+    }      
+,    public RemoteWebElement getdingo(){
+        return driver.findElement(dingo);
     }      
 }
 
