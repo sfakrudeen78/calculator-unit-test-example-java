@@ -11,11 +11,7 @@ public class Sample {
     {
         "title":"Sample",
         "info":[
-        {"key":"tab","value":[]}
-        
-,        {"key":"aldd","value":[]}
-        
-,        {"key":"dingo","value":[]}
+        {"key":"abc","value":[]}
         
 
         ]
@@ -23,21 +19,11 @@ public class Sample {
 
     PO*/
 
-    private By tab = By.name("name=q");  
-      
-,    private By aldd = By.name("name=btnI");  
-      
-,    private By dingo = By.name("name=btnK");  
+    private By abc = By.name("name=btnK");  
       
 
-    public RemoteWebElement gettab(){
-        return driver.findElement(tab);
-    }      
-,    public RemoteWebElement getaldd(){
-        return driver.findElement(aldd);
-    }      
-,    public RemoteWebElement getdingo(){
-        return driver.findElement(dingo);
+    public RemoteWebElement getabc(){
+        return driver.findElement(abc);
     }      
 }
 
