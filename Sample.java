@@ -18,7 +18,7 @@ public class Sample {
     private By tab = By.name("name=btnK");  
       
 
-    public RemoteWebElement get(){
+    public RemoteWebElement getTab(){
         return driver.findElement(tab);
     }      
 }
