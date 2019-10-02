@@ -18,7 +18,7 @@ public class Sample {
 
     PO*/
 
-    private By tab = By.name("name=btnK");  
+    private By tab = By.css("css=div.FPdoLc.VlcLAe > center > input[name="btnK"]");  
       
 
     public RemoteWebElement getTab(){
