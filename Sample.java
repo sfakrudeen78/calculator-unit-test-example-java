@@ -13,6 +13,10 @@ public class Sample {
         "info":[
         {"key":"abc","value":[]}
         
+,        {"key":"table","value":[]}
+        
+,        {"key":"baby","value":[]}
+        
 
         ]
     }
@@ -21,9 +25,19 @@ public class Sample {
 
     private By abc = By.name("name=btnK");  
       
+,    private By table = By.name("name=btnK");  
+      
+,    private By baby = By.name("name=btnI");  
+      
 
     public RemoteWebElement getabc(){
         return driver.findElement(abc);
+    }      
+,    public RemoteWebElement gettable(){
+        return driver.findElement(table);
+    }      
+,    public RemoteWebElement getbaby(){
+        return driver.findElement(baby);
     }      
 }
 
