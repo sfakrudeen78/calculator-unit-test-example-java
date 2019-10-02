@@ -16,7 +16,7 @@ public class Sample {
 
     private By abc = By.name("name=btnK");  
       
-,    private By tab = By.name("name=btnK");  
+,    private By tab = By.css("css=div.FPdoLc.VlcLAe > center > input[name="btnK"]");  
       
 
     public RemoteWebElement getabc(){
