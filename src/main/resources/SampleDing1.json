@@ -1,5 +1,5 @@
 {
-  "name": "SampleDing1.json",
+  "name": "SampleDing1",
   "defaultLocale": "en_US",
   "metadata":"%5B%7B%22key%22%3A%22lap%22%2C%22value%22%3A%5B%7B%22class%22%3A%22TextField%22%2C%22frameName%22%3A%22%22%2C%22locator%22%3A%7B%22tag_name%22%3A%22INPUT%22%2C%22type%22%3A%22name%22%2C%22value%22%3A%22name%3Dq%22%7D%2C%22name%22%3A%22lap%22%2C%22strict_locator%22%3A%22name%3Dq%22%7D%2C%7B%22class%22%3A%22TextField%22%2C%22frameName%22%3A%22%22%2C%22locator%22%3A%7B%22tag_name%22%3A%22INPUT%22%2C%22type%22%3A%22css%22%2C%22value%22%3A%22css%3Dinput%5Bname%3D%5C%22q%5C%22%5D%22%7D%2C%22name%22%3A%22lap%22%2C%22strict_locator%22%3A%22css%3Dinput%5Bname%3D%5C%22q%5C%22%5D%22%7D%2C%7B%22class%22%3A%22TextField%22%2C%22frameName%22%3A%22%22%2C%22locator%22%3A%7B%22tag_name%22%3A%22INPUT%22%2C%22type%22%3A%22xpath%22%2C%22value%22%3A%22//input%5B@name%3D%27q%27%5D%22%7D%2C%22name%22%3A%22lap%22%2C%22strict_locator%22%3A%22//input%5B@name%3D%27q%27%5D%22%7D%2C%7B%22class%22%3A%22TextField%22%2C%22frameName%22%3A%22%22%2C%22locator%22%3A%7B%22tag_name%22%3A%22INPUT%22%2C%22type%22%3A%22xpath%22%2C%22value%22%3A%22//form%5B@id%3D%27tsf%27%5D/div%5B2%5D/div/div/div/div%5B2%5D/input%22%7D%2C%22name%22%3A%22lap%22%2C%22strict_locator%22%3A%22//form%5B@id%3D%27tsf%27%5D/div%5B2%5D/div/div/div/div%5B2%5D/input%22%7D%5D%7D%5D",
   "elements": [
