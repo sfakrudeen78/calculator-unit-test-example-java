@@ -21,10 +21,15 @@ public class Sample.java {
     //PAGE-OBJECT-START
     private By tab = By.css("css=html > #gsr > #viewport > #main > #body > center > #prm-pt > #gws-output-pages-elements-homepage_additional_languages__als > #SIvCob > a:nth-of-type(1)");  
       
+,    private By tee = By.name("name=btnK");  
+      
 
     public RemoteWebElement getTab(){
         return driver.findElement(tab);
     }      
+,    public RemoteWebElement getTee(){
+        return driver.findElement(tee);
+    }      
     //PAGE-OBJECT-END
-}
+
 
